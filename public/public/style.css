@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:
+        Arial,
+        "Noto Sans KR",
+        sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #eef2ff,
+        #f8fafc
+    );
+
+    color: #172033;
+}
+
+.card {
+    width: min(420px, 92vw);
+
+    background: white;
+
+    padding: 36px;
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+
+    margin:
+        0
+        0
+        8px;
+}
+
+.sub {
+    text-align: center;
+
+    color: #64748b;
+
+    margin:
+        0
+        0
+        25px;
+}
+
+.tabs {
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 18px;
+}
+
+.tab {
+    flex: 1;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #f1f5f9;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+.tab.active {
+    background: #172033;
+
+    color: white;
+}
+
+input {
+    width: 100%;
+
+    padding: 14px;
+
+    margin: 6px 0;
+
+    border:
+        1px solid
+        #dbe1ea;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #64748b;
+}
+
+.primary {
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 10px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #172033;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.primary:hover {
+    opacity: 0.9;
+}
+
+#message {
+    text-align: center;
+
+    min-height: 22px;
+
+    color: #dc2626;
+}
+
+.avatar {
+    margin:
+        0
+        auto
+        16px;
+
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #172033;
+
+    color: white;
+
+    font-size: 28px;
+}
+
+#welcome p {
+    text-align: center;
+
+    color: #64748b;
+}
+
+#welcome p b {
+    color: #172033;
+}
